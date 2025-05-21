@@ -8,7 +8,6 @@ from psycopg.rows import dict_row
 
 # new lib
 import ast
-import re
 from tqdm import tqdm
 
 DB_PARAMS = {

@@ -14,7 +14,7 @@ Workflow:
 """
 
 output = ollama.generate(
-    model="llama3.2",
+    model="llama3",
     prompt="Hello world!"
 )
 

@@ -73,7 +73,7 @@ def stream_response(prompt):
         )
     response = ''
     steam = ollama.chat(
-        model="llama3.2",
+        model="llama3",
         messages=convo,
         stream=True
     )

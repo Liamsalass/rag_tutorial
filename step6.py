@@ -60,7 +60,7 @@ def stream_response(prompt):
         )
     response = ''
     steam = ollama.chat(
-        model="llama3.2",
+        model="llama3",
         messages=convo,
         stream=True
     )
@@ -70,9 +70,7 @@ def stream_response(prompt):
         response += content
         print (content, end='', flush=True)
     print ("\n")
-
-
-
+    # we make a change here by adding the following
     # here we store the conversation in the database
     store_conversation(prompt=prompt, response=response)
     convo.append(

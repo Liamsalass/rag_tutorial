@@ -16,7 +16,7 @@ while True:
     )
     
     output = ollama.chat(
-        model="llama3.2",
+        model="llama3",
         messages=convo
     )
 
