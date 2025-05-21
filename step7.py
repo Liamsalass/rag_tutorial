@@ -177,6 +177,14 @@ def create_queries(prompt):
         },
         {
             'role': 'user',
+            'content': 'How long should I put a frozen pizza in the oven for and at what temperature?'
+        },
+        {
+            'role': 'assistant',
+            'content': '["Frozen pizza", "Oven temperature for frozen pizza", "Cooking time for frozen pizza"]'
+        },
+        {
+            'role': 'user',
             'content': prompt
         }
     ]
